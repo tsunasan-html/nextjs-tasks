@@ -2,7 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/tasks/**/*.ts": {
-      "timeout": 30,
       "memory": 1024
     }
   }
