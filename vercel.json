@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*.ts": {
+      "timeout": 30,
+      "memory": 1024
+    },
+    "api/**/*.tsx": {
+      "timeout": 30,
+      "memory": 1024
+    }
+  }
+}
