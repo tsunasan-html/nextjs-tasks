@@ -1,6 +1,5 @@
 import EditTaskForm from "@/components/EditTaskForm/EditTaskForm";
 import { TaskDocument } from "@/models/task";
-import { cache } from "react";
 
 interface Params {
   params: {id: string};
